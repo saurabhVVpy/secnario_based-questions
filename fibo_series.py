@@ -48,3 +48,8 @@ for i in ans:
     if i > 100:
         break
     print(i)
+
+
+###------------------------------ Add Factorial numbers---------------------------#
+fact=(lambda num:1 if num==0 else num*fact(num-1) )
+print(fact(5))
