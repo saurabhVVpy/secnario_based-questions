@@ -50,9 +50,6 @@ for i in ans:
     print(i)
 
 
-###------------------------------ Add Factorial numbers---------------------------#
-fact=(lambda num:1 if num==0 else num*fact(num-1) )
-print(fact(5))
 
 ## Madhuri---
 def Fibonacci_num(num):
