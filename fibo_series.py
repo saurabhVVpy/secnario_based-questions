@@ -53,3 +53,21 @@ for i in ans:
 ###------------------------------ Add Factorial numbers---------------------------#
 fact=(lambda num:1 if num==0 else num*fact(num-1) )
 print(fact(5))
+
+## Madhuri---
+def Fibonacci_num(num):
+    u = 0
+    v = 1
+    if num < 0:
+        print("Incorrect input entered")
+    elif num == 0:
+        return u
+    elif num == 1:
+        return v
+    else:
+        for i in range(2,num):
+            c = u + v
+            u = v
+            v = c
+        return v
+print("Fibo series:",Fibonacci_num(7))
