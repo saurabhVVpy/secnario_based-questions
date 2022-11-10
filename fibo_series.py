@@ -29,19 +29,6 @@ def fib_number():
         a, b = b, a + b
 
 
-# Aniruddha
-
-n = int(input("Enter the numbers of element : "))
-a = int(input("Enter the first number: "))
-b = int(input("Enter the Second number: "))
-print(a, b, end=" ")
-while n-2:
-    c = a + b
-    a = b
-    b = c
-    print(c, end=" ")
-    n -= 1
-
 ans = fib_number()
 
 for i in ans:
