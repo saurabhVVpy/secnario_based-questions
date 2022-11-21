@@ -20,10 +20,3 @@ res=set()
 {res.update(str(k)+str(v)) for k,v in dict(input).items()}
 res=sorted(res)
 print(','.join(res))
-
-
-
-
-
-
-
