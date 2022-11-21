@@ -14,8 +14,8 @@ def prime():
         elif number_==2:
             return 2
             
-        elif all([ num % i != 0 for i in range(2,int(num**0.5)+1) ]):
-            if num>=2:
+        elif num>=2:
+            if all([ num % i != 0 for i in range(2,int(num**0.5)+1) ]):
                 prime_num.append(num)
             
     return prime_num    
